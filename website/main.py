@@ -420,7 +420,7 @@ def game2(state, choice):
     
     
 
-start_server(State(Molar_mass_dic, "9"))
+start_server(State(Molar_mass_dic, ""))
                         
                         
                         
