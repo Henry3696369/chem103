@@ -2,7 +2,7 @@
 
 Heng Luo
 
-Creative portion
+Creativity portion
 
 Website deployment is from ud-cs-department
 
