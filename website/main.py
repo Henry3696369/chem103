@@ -247,7 +247,7 @@ def test1(state: State) -> Page:
                          TextBox("q2"),
                          "3. Which group is Chalcogens in?",
                          TextBox("q3"),
-                         "4. Which group is Halogin in?",
+                         "4. Which group is Halogen in?",
                          TextBox("q4"),
                          "5. Which group is Noble Gas in?",
                          TextBox("q5"),
