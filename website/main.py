@@ -195,7 +195,7 @@ def caculating2(state: State, element1: str, num1: str, element2: str, num2: str
                             "Be careful with your spelling and capitalization",
                             "And it only supports element 1 - 86 (H - Rn)",
                             Button("Back", caculating1)])
-    result = round(mw1 * int(num1) + mw2 * int(num2) + mw3 * int(num3) + mw4 * int(num4) + mw5 * int(num5), 3)
+    result = round(mw1 * int(num1) + mw2 * int(num2) + mw3 * int(num3) + mw4 * int(num4) + mw5 * int(num5), 4)
     if int(num1) != 0:
         string1 = f"percent mass of {nn.name} is {round(mw1 * int(num1) / result * 100, 3)} %"
     if int(num2) != 0:
