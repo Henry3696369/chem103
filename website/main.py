@@ -2,7 +2,7 @@ from drafter import *
 from dataclasses import dataclass
 
 hide_debug_information()
-set_website_title("Chem Creative Portion")
+set_website_title("Chem Creativity Portion")
 set_website_framed(True)
 
 
@@ -227,7 +227,7 @@ def index(state: State) -> Page:
         show_str = "Congratulations! You have unlocked the secret prize!"
         show = Button("Caculator of Molar Mass", caculating1)
     return Page(state, ["The topic: The Periodic Table",
-                        "Chem103090 Creative Project",
+                        "Chem103090 Creativity Project",
                         "Heng Luo",
                         "Prof. Lauren Genova",
                         Image("chem.png", 400, 350),
