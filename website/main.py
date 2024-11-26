@@ -114,7 +114,7 @@ Molar_mass_dic = [
 def caculating1(state: State) -> Page:     
     return Page(state, ["Chem103 Creative Portion",
                         "Molar mass Caculator",
-                        "It only supports the elemeng 1 - 86 (H - Rn).",
+                        "It only supports the element 1 - 86 (H - Rn).",
                         "Pay attention to the spelling and capitalization",
                         "Enter the name at the first column, number at the second column.",
                         TextBox("element1", ""),
